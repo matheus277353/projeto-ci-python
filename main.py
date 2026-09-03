@@ -7,7 +7,7 @@ def calcular_media(notas: list[float]) -> float:
 
 def situacao_aluno(media: float) -> str:
     """Classifica o aluno a partir de sua média final."""
-    if media > 7:
+    if media >= 7:
         return "Aprovado"
     if media >= 5:
         return "Recuperação"
